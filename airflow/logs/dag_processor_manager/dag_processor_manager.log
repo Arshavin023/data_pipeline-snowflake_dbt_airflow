@@ -1,0 +1,71 @@
+[2025-03-10T23:42:48.908+0100] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-10T23:42:48.909+0100] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-10T23:42:48.909+0100] {manager.py:485} INFO - Checking for new files in /home/ubuntu/airflow/dags every 300 seconds
+[2025-03-10T23:42:48.909+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-10T23:42:48.910+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-10T23:42:52.301+0100] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-10T23:52:12.879+0100] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-10T23:52:12.882+0100] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-10T23:52:12.882+0100] {manager.py:485} INFO - Checking for new files in /home/ubuntu/airflow/dags every 300 seconds
+[2025-03-10T23:52:12.883+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-10T23:52:12.883+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-10T23:57:13.270+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-10T23:57:13.273+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:02:13.621+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:02:13.622+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:07:13.968+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:07:13.970+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:12:14.003+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:12:14.005+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:17:14.952+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:17:14.954+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:22:15.042+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:22:15.044+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:27:15.261+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:27:15.263+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:32:15.509+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:32:15.513+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:37:15.598+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:37:15.599+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:42:16.094+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:42:16.096+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:47:16.129+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:47:16.132+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:52:16.669+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:52:16.686+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T00:57:16.908+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T00:57:16.910+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:02:17.868+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:02:17.873+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:07:18.005+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:07:18.015+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:12:18.049+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:12:18.051+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:17:18.354+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:17:18.356+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:22:18.642+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:22:18.648+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:27:18.760+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:27:18.762+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:32:19.513+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:32:19.515+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:37:20.343+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:37:20.345+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:42:21.330+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:42:21.337+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T01:47:22.229+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T01:47:22.231+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T10:14:02.493+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T10:14:02.504+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T10:19:02.631+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T10:19:02.632+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T10:24:02.703+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T10:24:02.704+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T10:29:02.913+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T10:29:02.914+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T10:34:03.246+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T10:34:03.247+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T10:39:03.642+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T10:39:03.642+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-11T10:44:04.174+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-11T10:44:04.175+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
