@@ -1,2 +1,2 @@
 __pycache__/
-.dbt_pipeline/logs
+.logs/
