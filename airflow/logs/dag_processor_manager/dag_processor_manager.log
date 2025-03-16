@@ -343,3 +343,8 @@
 [2025-03-12T08:39:47.369+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
 [2025-03-12T08:44:48.297+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
 [2025-03-12T08:44:48.301+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags
+[2025-03-16T08:24:30.111+0100] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-16T08:24:30.112+0100] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-16T08:24:30.112+0100] {manager.py:485} INFO - Checking for new files in /home/ubuntu/airflow/dags every 300 seconds
+[2025-03-16T08:24:30.113+0100] {manager.py:821} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2025-03-16T08:24:30.113+0100] {manager.py:824} INFO - There are 0 files in /home/ubuntu/airflow/dags

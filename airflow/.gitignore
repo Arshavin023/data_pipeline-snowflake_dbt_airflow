@@ -1,2 +1,7 @@
 __pycache__/
-.logs/
+logs/
+dbtairflow_venv/
+airflow.cfg
+airflow.db
+webserver_config.py
+airflow-webserver.pid

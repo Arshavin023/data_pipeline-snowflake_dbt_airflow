@@ -1,15 +1,53 @@
-Welcome to your new dbt project!
+# data pipeline for processing product orders and transactions 
+## Overview
+This repository contains procedures implementing dbt-core on Snowflake analytics on customer orders.
 
-### Using the starter project
+# Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Execution Flow](#execution-flow)
 
-Try running the following commands:
-- dbt run
-- dbt test
 
+## Introduction <a name="introduction"></a>
+This repository contains SQL queries implemented with dbt-core for processing raw orders and transactions on Snowflake. Additionally, it contains Airflow DAG for workflow orchestration and scheduling.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Prerequisites <a name="prerequisites"></a>
+Before running this streaming data pipeline, the following prerequisite must be meant.
+
+- Create a Snowflake Account, Snowflake User, Snowflake Data Warehouse, Snowflake Database and Snowflake Schema
+- Connect DBT and Snowflake
+- Virtual environment in directory with project directory
+
+## Installation <a name="installation"></a>
+
+- Install Airflow as a service
+
+- Create Project directory
+``` 
+mkdir data_pipeline_snowflake_dbt_airflow
+cd data_pipeline_snowflake_dbt_airflow
+```
+
+Clone the repository to your local machine:
+``` 
+git clone https://github.com/Arshavin023/data_pipeline-snowflake_dbt_airflow.git .
+```
+
+Move dbt_project into Airflow directory
+```
+mkdir /home/ubuntu/airflow/dbt_pipeline
+cp -R /home/ubuntu/dbt_pipeline/* /home/ubuntu/airflow/dbt_pipeline/*
+```
+
+Install the required Python packages:
+```
+cd /home/ubuntu/airflow
+pip install -r requirements.txt
+```
+
+Test DBT project
+``` 
+dbt run
+dbt build
+```
