@@ -1,6 +1,6 @@
 __pycache__/
 logs/
-dbtairflow_venv/
+airflow_env/
 airflow.cfg
 airflow.db
 webserver_config.py
