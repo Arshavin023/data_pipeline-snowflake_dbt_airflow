@@ -33,5 +33,5 @@ def generate_cdc_order_data(num_rows=5000):
     df = pd.DataFrame(data)
     return df
 
-second_transaction = generate_cdc_order_data(5000)
-second_transaction.to_csv('second_transaction.csv',header=True,index=False)
+third_transaction = generate_cdc_order_data(5000)
+third_transaction.to_csv('third_transaction.csv',header=True,index=False)
