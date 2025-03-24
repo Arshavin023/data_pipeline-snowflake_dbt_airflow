@@ -1,3 +1,10 @@
+{{ 
+    config(
+        materialized='view',
+        database='dbt_db'
+    ) 
+}}
+
 SELECT 
 o_orderkey AS order_key,
 o_custkey AS customer_key,

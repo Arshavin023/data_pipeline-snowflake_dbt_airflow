@@ -1,3 +1,11 @@
+{{ 
+    config (
+        materialized='view',
+        database='dbt_db'
+    ) 
+}}
+
+
 SELECT 
 {{
     dbt_utils.generate_surrogate_key(['l_orderkey','l_linenumber'])

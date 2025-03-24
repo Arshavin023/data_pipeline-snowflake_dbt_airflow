@@ -18,3 +18,10 @@ sources:
               - relationships:
                   to: source('tpch', 'orders')
                   field: o_orderkey
+
+models:
+  - name: stg_tpch_lineitem
+    schema: staging
+  - name: stg_tpch_orders
+    schema: staging
+

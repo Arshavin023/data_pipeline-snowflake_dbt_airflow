@@ -1,0 +1,46 @@
+version: 2
+
+sources:
+  - name: snowflake_incremental_source
+    database: dbt_db
+    schema: staging
+    description: Snowflake staging layer
+
+    tables:
+      - name: raw_orders
+        description: stores raw orders migrated from S3
+        columns:
+          - name: order_id
+            description: Uniquely identifies each order with an ID
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            description: Identifies each customer with an ID
+            tests:
+              - not_null
+          - name: order_date
+            description: Date transaction occured
+          - name: status
+            description: Status of the order and must be one of the following; CREATED, SHIPPED, DELIVERED, CANCELED 
+            tests:
+              - accepted_values:
+                  values: ['CREATED', 'SHIPPED', 'DELIVERED', 'CANCELED']
+          - name: product_id
+            description: Identified the product sold
+          - name: price
+            description: Price of the commodity purchased
+          - name: quantity
+            description: Price of the commodity purchased
+          - name: total_amount
+            description: This is the product of price and quantity
+
+models:
+  - name: incremental_orders
+    # schema: data_marts
+    # database: dbt_db
+# models:
+# - name: incremental_orders
+#   database: dbt_db
+#   schema: data_marts
+#   description: Snowflake data_mart layer
