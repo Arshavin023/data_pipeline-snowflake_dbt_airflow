@@ -1,6 +1,7 @@
 __pycache__/
 logs/
 airflow_env/
+transactions/
 airflow.cfg
 airflow.db
 webserver_config.py
